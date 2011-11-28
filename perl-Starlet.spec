@@ -7,13 +7,13 @@
 Summary:	a simple, high-performance PSGI/Plack HTTP server
 #Summary(pl.UTF-8):	
 Name:		perl-Starlet
-Version:	0.13
+Version:	0.14
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/K/KA/KAZUHO/Starlet-0.13.tar.gz
-# Source0-md5:	222eff2e8e5d69a44a8a3935fb8837cd
+Source0:	http://www.cpan.org/modules/by-authors/id/K/KA/KAZUHO/Starlet-%{version}.tar.gz
+# Source0-md5:	936bd736f65b8d96ada877bf4b2bc506
 URL:		http://search.cpan.org/dist/Starlet/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
