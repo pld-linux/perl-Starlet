@@ -6,13 +6,13 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	a simple, high-performance PSGI/Plack HTTP server
 Name:		perl-Starlet
-Version:	0.21
+Version:	0.24
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/K/KA/KAZUHO/Starlet-%{version}.tar.gz
-# Source0-md5:	1be8005473090059132530a4ba866657
+# Source0-md5:	17d5ed3017cd0fdbad423dcafc716290
 URL:		http://search.cpan.org/dist/Starlet/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -20,7 +20,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl(Parallel::Prefork) >= 0.07
 BuildRequires:	perl(Server::Starter) >= 0.06
 BuildRequires:	perl-Plack >= 0.992
-BuildRequires:	perl-Test-TCP >= 0.15
+BuildRequires:	perl-Test-TCP >= 2.07
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
