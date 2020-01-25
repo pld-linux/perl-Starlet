@@ -3,7 +3,6 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %define		pdir	Starlet
-%include	/usr/lib/rpm/macros.perl
 Summary:	a simple, high-performance PSGI/Plack HTTP server
 Name:		perl-Starlet
 Version:	0.31
